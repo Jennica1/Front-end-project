@@ -1,0 +1,57 @@
+.sidebar {
+    padding: 20px;
+    color: black;
+    width:300px;
+}
+
+.add-item-form {
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+.add-item-input {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.add-item-button {
+    padding: 10px;
+    background-color: #00ff5e;
+    color: black; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 10px; 
+    transition: background-color 0.3s ease;
+}
+
+.add-item-button:hover {
+    background-color: #056b13;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.item-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.item {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    background-color: #00ff5e;
+}
+
+.item:hover {
+    background-color: #e9ecef;
+}
