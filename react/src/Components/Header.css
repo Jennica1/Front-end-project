@@ -1,5 +1,5 @@
 .header {
-    background-color: #333;
+    background-color: var(--color-dark);
     padding: 20px;
     position: fixed;
     width: 100%;
@@ -19,11 +19,12 @@
 }
 
 .nav-item a {
-    color: white;
+    color: var(--color-light);
     text-decoration: none;
     font-size: 18px;
 }
 
 .nav-item a:hover {
     text-decoration: underline;
+    color: var(--color-primary);
 }
