@@ -72,7 +72,7 @@
     .sidebar {
         padding: 20px;
         color: var(--color-light);
-        width: 100px;
+        width: 80px;
         height:70vh;
         display: flex;
         flex-direction: column;
