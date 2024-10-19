@@ -1,0 +1,13 @@
+.containerExplore {
+    display: flex;
+    flex-direction: column;                
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    max-width: 100%;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.containerExplore>h1{
+    color:var(--color-light)
+}
