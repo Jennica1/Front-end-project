@@ -10,7 +10,6 @@ import Privacy from './pages/Privacy';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
 
-
 const App = () => {
     return (
         <Router>
