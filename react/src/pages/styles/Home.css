@@ -1,7 +1,7 @@
 .container {
     display: flex;                
-    width: 100vw;                 
-    background-color: var(--color-background);
+    width: 100vw;
+    backdrop-filter: blur(10px);
 }
 
 .sidebar {
@@ -9,7 +9,6 @@
     color: var(--color-light);
     padding: 20px;             
     left: 0;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
 
 .recommended {
@@ -23,6 +22,11 @@
     display: flex; 
     flex-wrap: wrap;
     gap: 15px; 
+    backdrop-filter: blur(10px);
+    border:1px solid var(--transparentBlack18);
+    box-shadow:0 8px 32px 0;
+    padding:10px;
+    border-radius: 12px;
 }
 
 .category {
