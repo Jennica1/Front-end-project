@@ -4,6 +4,13 @@
   --color-background: #050A1A;  /* Dark Blue */
   --color-dark: #090E1F;       /* Darker Blue */
   --color-light: #F0F1F5;      /* Light Gray */
+  --black: rgb(0,0,0);
+  --white: rgb(255,255,255);
+  --transparentGray:rgba(67, 67, 67, 0.7);
+  --transparentWhite:rgba(219, 219, 219, 0.7);
+  --transparentDarkGray:rgba(255,255,255,0.1);
+  --transparentBlack:rgba(255,255,255,0);
+  --transparentBlack18:rgba(255,255,255,0.18);
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

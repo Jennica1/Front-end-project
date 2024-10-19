@@ -11,6 +11,10 @@
     color: var(--color-light); 
 }
 
+.custom-button.primary:hover{
+    background-color: var(--color-secondary);
+}
+
 .custom-button.secondary {
     background-color: var(--color-secondary); 
     color: var(--color-light); 
