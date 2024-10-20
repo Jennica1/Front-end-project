@@ -1,0 +1,7 @@
+.privacy{
+    height:80vh;
+    margin-left: 10px;
+}
+.privacy>h1{
+    color: var(--color-light);
+}

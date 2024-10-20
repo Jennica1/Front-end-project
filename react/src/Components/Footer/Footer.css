@@ -36,5 +36,5 @@
 
 .footer-item a:hover {
     text-decoration: underline;
-    color: var(--color-dark); 
+    color: var(--color-light);
 }

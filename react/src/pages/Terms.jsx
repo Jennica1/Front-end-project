@@ -3,7 +3,7 @@ import './styles/Terms.css';
 
 const Terms = () => {
     return (
-        <div>
+        <div className='terms'>
             <h1>Terms Page</h1>
         </div>
     );
