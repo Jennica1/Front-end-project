@@ -56,7 +56,7 @@ const Settings = () => {
                             Account Email
                         </h3>
                         <p className='emailText'>
-                            epic_mixx_sundays@gmail.com &nbsp;&nbsp; >
+                            epic_mixx_sundays@gmail.com &nbsp;&nbsp; →
                         </p>
                     </div>
                     <div className='settingsItem'>
@@ -64,7 +64,7 @@ const Settings = () => {
                             Password
                         </h3>
                         <p className='passwordText'>
-                            Change Password &nbsp;&nbsp; >
+                            Change Password &nbsp;&nbsp; →
                         </p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const Settings = () => {
                             Log Out
                         </h3>
                         <p className='logout'>
-                            >
+                            →
                         </p>
                     </div>
                 </div>

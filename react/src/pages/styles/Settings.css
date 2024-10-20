@@ -98,21 +98,16 @@
 
   .emailText {
     color: darkgray;
-    margin-left: -7.67rem;
+    margin-left: -8rem;
   }
 
   .passwordText {
     color: darkgray;
-    margin-left: 1.16rem;
-  }
-
-  .rateText {
-    color: darkgray;
-    margin-left: -7.77rem;
+    margin-left: 0.8rem;
   }
 
   .logout {
     color: darkgray;
     font-weight: bold;
-    margin-left: 11.46rem;
+    margin-left: 11.1rem;
   }
