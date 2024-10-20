@@ -1,3 +1,21 @@
 .terms{
     height:80vh;
 }
+
+.terms-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+
+.terms-content {  
+    overflow-x: auto;   
+    gap: 15px; 
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--transparentBlack18);
+    box-shadow: 0 8px 32px 0;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 100%; 
+    background-color: rgb(18, 17, 18, 0.5)
+}
