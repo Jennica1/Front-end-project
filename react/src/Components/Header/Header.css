@@ -1,13 +1,25 @@
 .header {
-    background: linear-gradient(135deg,var(--transparentDarkGray),var(--transparentBlack));
+    background: linear-gradient(135deg, var(--transparentDarkGray), var(--transparentBlack));
     backdrop-filter: blur(10px);
-    border:1px solid var(--transparentBlack18);
-    box-shadow:0 8px 32px 0;
+    border: 1px solid var(--transparentBlack18);
+    box-shadow: 0 8px 32px 0;
     padding: 20px;
-    position:absolute;
+    position: absolute;
     width: 100%;
     top: 0;
     left: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 20px;
 }
 
 .nav-list {
@@ -18,7 +30,7 @@
 }
 
 .nav-item {
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .nav-item a {
