@@ -49,7 +49,6 @@ const Home = () => {
                             description="This is a small description for the card." 
                             image="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png" 
                         />
-                        
                     </div>
                 </div>
             </div>
