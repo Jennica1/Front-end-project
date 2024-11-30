@@ -1,0 +1,60 @@
+/* PlaylistPage.css */
+.playlist-page {
+    padding: 20px;
+    font-family: var(--font-family); /* Use the global font-family */
+    background: linear-gradient(135deg, var(--transparentDarkGray), var(--transparentBlack));
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--transparentBlack18);
+    color: var(--color-light); /* Light text color for readability */
+    min-height: 100vh;
+    margin-top: 100px;
+    width: 100vw;
+}
+
+.playlist-title {
+    font-size: 2.5rem;
+    color: var(--color-primary); /* Use primary color (Pink) for the title */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.playlist-description {
+    font-size: 1.2rem;
+    color: var(--color-light); /* Light color for description */
+    text-align: center;
+    margin-bottom: 30px; /* Space after the description */
+}
+
+.song-list {
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-list li {
+    padding: 10px;
+    border-bottom: 1px solid var(--transparentBlack18); /* Lighter border with transparency */
+    font-size: 1.1rem;
+}
+
+.song-list li:hover {
+    background-color: var(--transparentGray); /* Transparent gray background on hover */
+}
+
+.add-song-button {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: var(--color-secondary); /* Use secondary color (Purple) */
+    color: var(--color-light); /* Light text color */
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-song-button:hover {
+    background-color: var(--color-primary); /* Change to primary color (Pink) on hover */
+}

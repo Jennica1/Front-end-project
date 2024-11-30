@@ -9,6 +9,7 @@ import Settings from './pages/Settings';
 import Privacy from './pages/Privacy';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
+import PlaylistPage from './Components/PlaylistPage/PlaylistPage'; // Import PlaylistPage
 
 const App = () => {
     return (
@@ -23,6 +24,7 @@ const App = () => {
                     <Route path="/privacy" element={<Privacy />} />
                     <Route path="/terms" element={<Terms />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/playlist/:name" element={<PlaylistPage />} /> {/* Add the PlaylistPage route */}
                 </Routes>
             </main>
             <Footer />
