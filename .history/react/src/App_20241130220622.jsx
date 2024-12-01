@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import PlaylistPage from "./Components/PlaylistPage/PlaylistPage"; // Import PlaylistPage
 import Feed from "./pages/Feed";
-import PostList from "./Components/Feed/PostList";
+import PostList from "./components/Feed/PostList";
 import PostPage from "./Components/Feed/PostPage";
 
 const App = () => {
