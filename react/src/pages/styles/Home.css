@@ -48,6 +48,15 @@ h1 {
     color: var(--color-primary);
 }
 
+.btn-group {
+   display: flex;
+   
+}
+
+.btn {
+    margin: 4px;
+}
+
 @media (min-width: 701px) and (max-width: 1120px){
     .container {
         display: flex;                
