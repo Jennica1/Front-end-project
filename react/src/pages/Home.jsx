@@ -10,6 +10,7 @@ const Home = () => {
     // Optional click handler logic
   };
 
+
   return (
     <div>
       <div className="container">
@@ -31,35 +32,35 @@ const Home = () => {
                 </Button>
               </Link>
             </div>
-          </div>
-          <div className="cardContainer">
-            <Card
-              title="Card Title"
-              description="This is a small description for the card."
-              image="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png"
-            />
-            <Card
-              title="Card Title"
-              description="This is a small description for the card."
-              image="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png"
-            />
-            <Card
-              title="Card Title"
-              description="This is a small description for the card."
-              image="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png"
-            />
-            <Card
-              title="Card Title"
-              description="This is a small description for the card."
-              image="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png"
-            />
-            <Card
-              title="Card Title"
-              description="This is a small description for the card."
-              image="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png"
-            />
-          </div>
-        </div>
+                    </div>
+                    <div className='cardContainer'>
+                        <Card 
+                            title="St. Chroma" 
+                            description="Tyler, The Creator (feat. Daniel Caesar)" 
+                            image="https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Chromakopia_CD_cover.jpg/220px-Chromakopia_CD_cover.jpg" 
+                        />
+                        <Card 
+                            title="Club Classics" 
+                            description="Charli XCX" 
+                            image="https://upload.wikimedia.org/wikipedia/commons/6/60/Charli_XCX_-_Brat_%28album_cover%29.png" 
+                        />
+                        <Card 
+                            title="HOT TO GO!" 
+                            description="Chappell Roan" 
+                            image="https://upload.wikimedia.org/wikipedia/en/3/34/Chappell_Roan_-_The_Rise_and_Fall_of_a_Midwest_Princess.png" 
+                        />
+                        <Card 
+                            title="Redbone" 
+                            description="Childish Gambino" 
+                            image="https://upload.wikimedia.org/wikipedia/en/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png" 
+                        />
+                        <Card 
+                            title="Dark Red" 
+                            description="Steve Lacy" 
+                            image="https://cdn-images.dzcdn.net/images/cover/19e761f5efadd86098265258cb4e3615/500x500.jpg" 
+                        />
+                    </div>
+                </div>
       </div>
     </div>
   );
