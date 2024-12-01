@@ -1,9 +1,9 @@
-import React from "react";
-import "./styles/Home.css";
-import { Link } from "react-router-dom";
-import Button from "../Components/Button/Button";
-import Sidebar from "../Components/Sidebar/Sidebar";
-import Card from "../Components/Card/Card";
+import React from 'react';
+import './styles/Home.css';
+import { Link } from 'react-router-dom';
+import Button from '../Components/Button/Button';
+import Sidebar from '../Components/Sidebar/Sidebar'; 
+import Card from '../Components/Card/Card';
 
 const Home = () => {
   const handleClick = () => {
