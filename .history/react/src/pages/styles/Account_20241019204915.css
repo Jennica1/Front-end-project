@@ -1,0 +1,13 @@
+.account{
+    height:80vh;
+    margin-left: 7vh;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-info il {
+margin: 10px;
+}

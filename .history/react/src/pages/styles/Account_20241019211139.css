@@ -1,0 +1,57 @@
+.account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 100%;
+    height: 80vh;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    flex-shrink: 0;
+}
+
+.profile-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.profile-username {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.edit-button {
+    margin-bottom: 10px;
+}
+
+.profile-stats {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.profile-stats li {
+    font-size: 1.1em;
+}
+
+.profile-bio {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-grid {
+    display: grid;
+    
+    grid-gap: 10px;
+    width: 100%;
+}

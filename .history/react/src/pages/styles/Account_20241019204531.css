@@ -1,0 +1,8 @@
+.account{
+    height:80vh;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+}

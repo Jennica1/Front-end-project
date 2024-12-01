@@ -10,6 +10,7 @@ const Home = () => {
     // Optional click handler logic
   };
 
+
   return (
     <div>
       <div className="container">
