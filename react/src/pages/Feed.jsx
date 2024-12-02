@@ -5,16 +5,16 @@ import { appReducer } from "../Components/Feed/appContext";
 
 // Hardcoded posts and comments
 const hardcodedPosts = [
-  { id: 1, title: "First Post", body: "This is the first post" },
-  { id: 2, title: "Second Post", body: "This is the second post" },
-  { id: 3, title: "Third Post", body: "This is the third post" },
+  { id: 1, title: "Epic rap bangerz!!", body: "Barz 🔥" },
+  { id: 2, title: "100 gecs playlist", body: "hours and hours of 100 gecz vibez" },
+  { id: 3, title: "Car Playlist", body: "I listen to this playlist when I drive my vehicle." },
 ];
 
 const hardcodedComments = [
-  { id: 1, postId: 1, body: "First comment on post 1" },
-  { id: 2, postId: 1, body: "Second comment on post 1" },
-  { id: 3, postId: 2, body: "First comment on post 2" },
-  { id: 4, postId: 3, body: "First comment on post 3" },
+  { id: 1, postId: 1, body: "You're RIGHT these ARE barz!! 🔥🔥" },
+  { id: 2, postId: 1, body: "Drake is mid bruh" },
+  { id: 3, postId: 2, body: "STUPID HORSE I JUST FELL OUT OF THE PORSCHE!!!" },
+  { id: 4, postId: 3, body: "This is excellent car vibes! Exceptional! I can't get enough of this! I've been driving for 13 days straight!!" },
 ];
 
 function Feed() {
