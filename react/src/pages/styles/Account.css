@@ -15,8 +15,11 @@
     margin-bottom: 20px;
 }
 
-.profile-image {
-    flex-shrink: 0;
+.profile-image>img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .profile-info {
