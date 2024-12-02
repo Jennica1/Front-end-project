@@ -1,13 +1,18 @@
 .containerExplore {
     display: flex;
     flex-direction: column;                
-    width: 100vw;
-    backdrop-filter: blur(10px);
     max-width: 100%;
-    margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 .containerExplore>h1{
     color:var(--color-light)
+}
+
+.outerContainer{
+    display:flex;
+    flex-direction: row;
+    margin-top: 100px;
+    backdrop-filter: blur(10px);
+    width:99vw;
 }

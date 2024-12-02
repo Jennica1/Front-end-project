@@ -1,8 +1,11 @@
 import React from 'react';
 import './styles/Account.css';
+import Sidebar from '../Components/Sidebar/Sidebar';
 
 const Account = () => {
     return (
+        <div className='outerContainer'>
+            <Sidebar/>
         <div className='account'>
             <div className='profile-header'>
                 <div className='profile-image'>
@@ -26,6 +29,7 @@ const Account = () => {
                 <div className='post-item'><img src="https://i.scdn.co/image/ab6761610000e5ebd77a9c855001f3a9b5815bc0" alt="100gecs_playlist" /></div>
                 <div className='post-item'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2-O0mtiOFEWaav-mZSxfY9nwsN5FHdD7pVA&s" alt="rap_playlist" /></div>
             </div>
+        </div>
         </div>
     );
 };

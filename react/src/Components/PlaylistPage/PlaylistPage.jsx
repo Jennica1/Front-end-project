@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import './PlaylistPage.css'; // Import the styles
+import './PlaylistPage.css';
 
 const PlaylistPage = () => {
     const { name } = useParams(); // Get playlist name from the URL

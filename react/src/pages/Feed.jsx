@@ -2,6 +2,8 @@ import { useEffect, useReducer } from "react";
 import PostList from "../Components/Feed/PostList";
 import { Link, Outlet } from "react-router-dom";
 import { appReducer } from "../Components/Feed/appContext";
+import Sidebar from "../Components/Sidebar/Sidebar";
+import './styles/Feed.css';
 
 // Hardcoded posts and comments
 const hardcodedPosts = [
@@ -38,10 +40,12 @@ function Feed() {
 
 
   return (
-    <div className="App">
-   
+    <div className='outerContainer'>
+            <Sidebar/>
+    <div className="feed">
       <PostList posts={posts} />
       <Outlet context={{ posts, dispatch }} />
+    </div>
     </div>
   );
 }

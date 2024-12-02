@@ -1,8 +1,11 @@
 import React from 'react';
 import './styles/Settings.css';
+import Sidebar from '../Components/Sidebar/Sidebar';
 
 const Settings = () => {
     return (
+        <div className='outerContainer'>
+            <Sidebar/>
         <div className='settings'>
 
             <div className='settingsHeader'>
@@ -85,6 +88,7 @@ const Settings = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

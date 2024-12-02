@@ -1,0 +1,9 @@
+.feed{
+    height: 80vh;
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    margin-left: 40px;
+}
+.outerContainer{
+    
+}

@@ -1,9 +1,12 @@
 import React from 'react';
 import './styles/Explore.css';
 import Card from '../Components/Card/Card';
+import Sidebar from '../Components/Sidebar/Sidebar'
 
 const Explore = () => {
     return (
+        <div className='outerContainer'>
+            <Sidebar/>
         <div className='containerExplore'>
             <h1>Explore</h1>
             <div className='recommended'>
@@ -98,6 +101,7 @@ const Explore = () => {
                     </div>
                 </div>
         </div>
+    </div>
     );
 };
 
